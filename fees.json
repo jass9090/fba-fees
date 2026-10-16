@@ -1,7 +1,10 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "lastUpdated": "2026-10-16",
   "source": "https://raw.githubusercontent.com/jass9090/fba-fees/main/fees.json",
+  "disclaimer": "Small/standard/large values below are rough non-official estimates/placeholders, not current official Amazon fee schedules. Verify product-specific fees in Seller Central. ZAR intentionally requires manual product-specific FBA fee entry because a verified generic estimate is not supplied.",
+  "supportedMarketplaceCount": 23,
+  "supportedCurrencyCount": 17,
   "fees": {
     "USD": {
       "small": 3.5,
@@ -98,6 +101,10 @@
       "standard": 40,
       "large": 65,
       "referral_default": 15
+    },
+    "ZAR": {
+      "manual_required": true,
+      "referral_default": 15
     }
   },
   "marketplaces": {
@@ -114,13 +121,15 @@
     "amazon.se": "SEK",
     "amazon.pl": "PLN",
     "amazon.com.be": "EUR",
+    "amazon.ie": "EUR",
+    "amazon.com.tr": "TRY",
+    "amazon.co.za": "ZAR",
     "amazon.com.au": "AUD",
     "amazon.in": "INR",
     "amazon.co.jp": "JPY",
     "amazon.ae": "AED",
     "amazon.sa": "SAR",
     "amazon.sg": "SGD",
-    "amazon.eg": "EGP",
-    "amazon.tr": "TRY"
+    "amazon.eg": "EGP"
   }
 }

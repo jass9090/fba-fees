@@ -1,0 +1,126 @@
+{
+  "version": "1.2.0",
+  "lastUpdated": "2026-10-16",
+  "source": "https://raw.githubusercontent.com/jass9090/fba-fees/main/fees.json",
+  "fees": {
+    "USD": {
+      "small": 3.5,
+      "standard": 5.5,
+      "large": 8.5,
+      "referral_default": 15
+    },
+    "CAD": {
+      "small": 4.5,
+      "standard": 6.5,
+      "large": 10,
+      "referral_default": 15
+    },
+    "MXN": {
+      "small": 40,
+      "standard": 65,
+      "large": 100,
+      "referral_default": 15
+    },
+    "BRL": {
+      "small": 15,
+      "standard": 22,
+      "large": 35,
+      "referral_default": 15
+    },
+    "GBP": {
+      "small": 3.0,
+      "standard": 4.5,
+      "large": 7.0,
+      "referral_default": 15
+    },
+    "EUR": {
+      "small": 3.2,
+      "standard": 4.8,
+      "large": 7.5,
+      "referral_default": 15
+    },
+    "SEK": {
+      "small": 35,
+      "standard": 55,
+      "large": 85,
+      "referral_default": 15
+    },
+    "PLN": {
+      "small": 12,
+      "standard": 18,
+      "large": 28,
+      "referral_default": 15
+    },
+    "AUD": {
+      "small": 5.0,
+      "standard": 7.5,
+      "large": 11.0,
+      "referral_default": 15
+    },
+    "INR": {
+      "small": 45,
+      "standard": 90,
+      "large": 200,
+      "referral_default": 15
+    },
+    "JPY": {
+      "small": 400,
+      "standard": 600,
+      "large": 900,
+      "referral_default": 15
+    },
+    "AED": {
+      "small": 15,
+      "standard": 25,
+      "large": 40,
+      "referral_default": 15
+    },
+    "SAR": {
+      "small": 15,
+      "standard": 25,
+      "large": 40,
+      "referral_default": 15
+    },
+    "SGD": {
+      "small": 4.0,
+      "standard": 6.0,
+      "large": 9.0,
+      "referral_default": 15
+    },
+    "EGP": {
+      "small": 60,
+      "standard": 90,
+      "large": 140,
+      "referral_default": 15
+    },
+    "TRY": {
+      "small": 25,
+      "standard": 40,
+      "large": 65,
+      "referral_default": 15
+    }
+  },
+  "marketplaces": {
+    "amazon.com": "USD",
+    "amazon.ca": "CAD",
+    "amazon.com.mx": "MXN",
+    "amazon.com.br": "BRL",
+    "amazon.co.uk": "GBP",
+    "amazon.de": "EUR",
+    "amazon.fr": "EUR",
+    "amazon.it": "EUR",
+    "amazon.es": "EUR",
+    "amazon.nl": "EUR",
+    "amazon.se": "SEK",
+    "amazon.pl": "PLN",
+    "amazon.com.be": "EUR",
+    "amazon.com.au": "AUD",
+    "amazon.in": "INR",
+    "amazon.co.jp": "JPY",
+    "amazon.ae": "AED",
+    "amazon.sa": "SAR",
+    "amazon.sg": "SGD",
+    "amazon.eg": "EGP",
+    "amazon.tr": "TRY"
+  }
+}
